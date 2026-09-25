@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paris' Makeup Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="#home" class="logo">Paris Alejandrino<span>Makeup Artistry</span></a>
+            
+            <div class="nav-right">
+                <div id="liveClock" class="live-clock" title="Current Local Time">00:00:00 AM</div>
+
+                <button id="themeToggleBtn" class="theme-btn" aria-label="Toggle Dark/Light Mode">
+                    <i class="fa-solid fa-moon" id="themeIcon"></i>
+                </button>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#masterclass">Masterclass</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <span class="badge">Professional MUA</span>
+                <h1>Enhancing Your Natural Glow & Elegance</h1>
+                <p>Welcome to my makeup portfolio! Specializing in bridal glam, soft everyday looks, and editorial sessions tailored just for you.</p>
+            </div>
+            <div class="hero-image">
+                <img src="1.png" 
+                     alt="Professional Makeup Look">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="6.png" 
+                             alt="Cosmetics and Brushes">
+                    </div>
+                    <div class="about-text">
+                        <span class="section-tag">About Me</span>
+                        <h2>HAIR AND MAKEUP STYLIST</h2>
+                        <p>Hi, I'm Paris! I am a college student with years of experience as a hair and makeup artist during simple and major events. As the artist I valued most is my client's comfort and happiness specially with how they would look in any occasion or events. </p>
+                        
+                        <div class="list-container">
+                            <p class="list-title">Why clients choose me:</p>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i> Customized skin prep for a long-lasting finish</li>
+                                <li><i class="fa-solid fa-check"></i> Premium cruelty-free professional cosmetics</li>
+                                <li><i class="fa-solid fa-check"></i> Personalized consultation before every session</li>
+                            </ul>
+                        </div>
+
+                        <div class="link-container">
+                            <a href="https://instagram.com/parsaljndrn" target="_blank" rel="noopener noreferrer" class="external-link">
+                                <i class="fa-brands fa-instagram"></i> Follow my daily work on Instagram &rarr;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Visual Showcase</span>
+                    <h2>Featured Portfolio</h2>
+                    <p>Explore my recent makeup transformations ranging from soft everyday glams to striking debut looks.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="5.png" alt="Everyday Look">
+                        <div class="gallery-info">
+                            <h3>Everyday Look</h3>
+                            <p>Features a Soft neutrals & glowing skin</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="4.png" alt="Soft Glam">
+                        <div class="gallery-info">
+                            <h3>Soft Glam</h3>
+                            <p>Lightweight base & warm tones glam perfect for special occasions</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="2.png" alt="Debut Look">
+                        <div class="gallery-info">
+                            <h3>18th Debut Glam</h3>
+                            <p>Bold shimmer & defined contours</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="masterclass" class="masterclass-section">
+            <div class="container">
+                <div class="masterclass-box">
+                    <span class="section-tag">Upcoming Event</span>
+                    <h2>Exclusive Makeup Masterclass</h2>
+                    <p>Join my live makeup tutorial session where I share pro tips on achieving flawless long-lasting base makeup.</p>
+
+                    <div id="countdownTimer" class="countdown-grid">
+                        <div class="time-box"><span id="days">00</span><small>Days</small></div>
+                        <div class="time-box"><span id="hours">00</span><small>Hours</small></div>
+                        <div class="time-box"><span id="minutes">00</span><small>Minutes</small></div>
+                        <div class="time-box"><span id="seconds">00</span><small>Seconds</small></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Paris Alejandrino. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
